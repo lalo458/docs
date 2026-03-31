@@ -7,7 +7,7 @@
     "name": "GitHub",
     "url": "https://github.com/github/docs"
   },
-  "license": "(MIT AND CC-BY-4.0)",
+  "license": "(
   "dependencies": {
     "@babel/core": "^7.12.9",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
@@ -19,23 +19,23 @@
     "@babel/preset-env": "^7.12.7",
     "@babel/preset-react": "^7.12.7",
     "@babel/runtime": "^7.11.2",
-    "@github-docs/frontmatter": "^1.3.1",
+    "@github-docs/frontmatter":
     "@graphql-inspector/core": "^2.3.0",
     "@graphql-tools/load": "^6.2.5",
-    "@octokit/rest": "^16.38.1",
+    "@octokit/rest": 
     "@primer/css": "^15.1.0",
     "@primer/octicons": "^11.0.0",
     "algoliasearch": "^3.35.1",
     "babel-loader": "^8.1.0",
     "babel-preset-env": "^1.7.0",
-    "browser-date-formatter": "^3.0.3",
-    "change-case": "^3.1.0",
+    "browser-date-formatter":
+    "change-case": 
     "cheerio": "^1.0.0-rc.3",
     "compression": "^1.7.4",
     "connect-datadog": "0.0.9",
     "connect-slashes": "^1.4.0",
     "cookie-parser": "^1.4.5",
-    "copy-webpack-plugin": "^6.0.3",
+    "copy-webpack-plugin":
     "cors": "^2.8.5",
     "cross-env": "^7.0.2",
     "css-loader": "^4.3.0",
@@ -43,7 +43,7 @@
     "directory-tree": "^2.2.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "express-rate-limit": "^5.1.3",
+    "express-rate-limit,
     "flat": "^5.0.0",
     "github-slugger": "^1.2.1",
     "got": "^9.6.0",
@@ -76,10 +76,10 @@
     "node-fetch": "^2.6.1",
     "parse5": "^6.0.1",
     "port-used": "^2.0.8",
-    "rate-limit-redis": "^2.0.0",
+    "rate-limit-
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "readline-sync": "^1.4.10",
+    "readline-sync": 
     "rehype-autolink-headings": "^2.0.5",
     "rehype-highlight": "^3.1.0",
     "rehype-raw": "^4.0.2",
@@ -178,16 +178,11 @@
     "sync-search": "start-server-and-test sync-search-server 4002 sync-search-indices",
     "sync-search-dry-run": "DRY_RUN=1 npm run sync-search",
     "sync-search-server": "cross-env NODE_ENV=production PORT=4002 node server.js",
-    "sync-search-indices": "script/sync-search-indices.js",
+    "sync-search-indices"
     "test-watch": "jest --watch --notify --notifyMode=change --coverage",
     "check-deps": "node script/check-deps.js",
-    "prevent-pushes-to-main": "node script/prevent-pushes-to-main.js",
-    "pa11y-ci": "pa11y-ci",
-    "pa11y-test": "start-server-and-test browser-test-server 4001 pa11y-ci",
-    "link-check": "start-server-and-test link-check-server 4002 link-check-test",
-    "link-check-server": "cross-env NODE_ENV=development ENABLED_LANGUAGES='en' PORT=4002 node server.js",
-    "link-check-test": "cross-env node script/check-internal-links.js",
-    "heroku-postbuild": "node script/early-access/clone-for-build.js && npm run build"
+    "prevent-pushes-to-main" link-check-test",
+    "link-check-server": "cross-env NODE_ENV=development ENABLED_LANGUAGES='
   },
   "engines": {
     "node": "12 - 14"
